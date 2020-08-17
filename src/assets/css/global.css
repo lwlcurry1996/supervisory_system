@@ -4,3 +4,9 @@ body,html,#app{
   margin: 0;
   padding: 0;
 }
+.box-card{
+  margin-top: 10px!important;
+}
+.el-table{
+  margin-top: 15px;
+}

@@ -4,7 +4,7 @@
     <div class="login_box">
       <!-- 头像区域 -->
       <div class="avatar">
-        <img src="../assets/logo.png" alt="">
+        <img src="../assets/log0.jpg" alt="">
       </div>
       <!-- 用户信息区域 -->
       <el-form class="login_form" :model="loginForm" :rules="loginFormRules" ref='loginForm'>
@@ -58,7 +58,7 @@ export default {
       this.$refs.loginForm.resetFields()
     },
     login () {
-      console.log(11)
+      // console.log(11)
       // 在登录之前先验证用户名和密码是否合法
       this.$refs.loginForm.validate(async flag => {
         if (!flag) return
